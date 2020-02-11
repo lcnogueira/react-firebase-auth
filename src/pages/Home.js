@@ -1,5 +1,6 @@
 import React from "react";
 import app from "../config/firebase";
+import { useUser } from "../hooks";
 
 export default function Home() {
   return (
